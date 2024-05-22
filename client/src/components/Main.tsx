@@ -18,11 +18,11 @@ const Main: FC<IEventsResponse> = ({ events, totalPages }) => {
   return (
     <>
       <>
-        <div className="mb-3 mt-4 flex items-end justify-between pl-5">
+        <div className="mt-4 mb-3 flex items-end justify-between pl-5">
           <h1 className="">Events</h1>
           <Sort />
         </div>
-        <div className="grid-container">
+        <div className="grid-container mb-2">
           {events.map((event, index) => (
             <EventCard key={index} event={event} openCard={openCard} />
           ))}

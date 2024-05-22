@@ -168,13 +168,21 @@ const RegistrationWhithHookForm = () => {
               </div>
             </div>
           </div>
-          <button
-            type="submit"
-            className="btn btn-green relative mx-auto group-disabled:pointer-events-none"
-          >
-            <Spinner className="absolute left-[40%] h-4 group-enabled:opacity-0" />
-            <span className="group-disabled:opacity-0">Submit</span>
-          </button>
+          <div className='flex'>
+            <button
+                  onClick={() => navigate(-1)}
+                  className="btn btn-orange relative mx-auto group-disabled:pointer-events-none"
+                >
+                  <span className="group-disabled:opacity-0">Cansel</span>
+                </button>
+            <button
+              type="submit"
+              className="btn btn-green relative mx-auto group-disabled:pointer-events-none"
+            >
+              <Spinner className="absolute left-[40%] h-4 group-enabled:opacity-0" />
+              <span className="group-disabled:opacity-0">Submit</span>
+            </button>
+          </div>
         </fieldset>
       </form>
     </div>

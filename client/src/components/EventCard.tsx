@@ -15,7 +15,7 @@ const EventCard: FC<Props> = ({ event, openCard }) => {
   return (
     <div
       onClick={() => openCard(event._id)}
-      className="group flex flex-col gap-2 overflow-hidden rounded-lg border bg-slate-50 p-3 shadow-sm transition-all duration-150 hover:cursor-pointer hover:bg-slate-200"
+      className="group flex flex-col gap-1 overflow-hidden rounded-lg border bg-slate-50 p-3 shadow-sm transition-all duration-150 hover:cursor-pointer hover:bg-slate-200"
     >
       <h3 className="text-base font-bold decoration-slate-400 decoration-[1.5px] group-hover:underline group-hover:underline-offset-4">
         {textSlice(event.title, 50)}

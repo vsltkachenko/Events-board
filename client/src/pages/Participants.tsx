@@ -45,7 +45,7 @@ const Participants = () => {
         </div>
       )}
       {!isLoading && !!data?.participants.length && (
-        <div>
+        <div className='mb-10'>
           <h1 className="mb-4 ml-2 mt-4">"{data?.eventName}" participants</h1>
 
           <div className="grid-container">
@@ -74,7 +74,7 @@ const Participants = () => {
           </div>
           <button
             onClick={() => navigate(-1)}
-            className="btn btn-green mt-6 flex w-20 items-center justify-center"
+            className="btn btn-green my-6 flex w-20 items-center justify-center"
           >
             Back
           </button>
