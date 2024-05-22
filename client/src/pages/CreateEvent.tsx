@@ -94,7 +94,7 @@ const CreateEvent = () => {
                 onClick={() => navigate(-1)}
                 className="btn btn-orange relative mx-auto group-disabled:pointer-events-none"
               >
-                <span className="group-disabled:opacity-0">Cansel</span>
+                <span className="group-disabled:opacity-0">Cancel</span>
               </button>
               <button className="btn btn-green relative mx-auto group-disabled:pointer-events-none">
                 <Spinner className="absolute left-[40%] h-4 group-enabled:opacity-0" />

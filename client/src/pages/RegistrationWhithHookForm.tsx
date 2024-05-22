@@ -173,7 +173,7 @@ const RegistrationWhithHookForm = () => {
                   onClick={() => navigate(-1)}
                   className="btn btn-orange relative mx-auto group-disabled:pointer-events-none"
                 >
-                  <span className="group-disabled:opacity-0">Cansel</span>
+                  <span className="group-disabled:opacity-0">Cancel</span>
                 </button>
             <button
               type="submit"
