@@ -1,0 +1,40 @@
+.pagination {
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 20px;
+  padding: 30px 0;
+  margin-top: auto;
+
+  li {
+    line-height: 1;
+
+    span {
+      font-size: 18px;
+      padding: 2px 8px;
+      position: relative;
+      cursor: pointer;
+
+      &.active-page {
+        color: rgb(37 99 235);
+        &::after {
+          opacity: 1;
+        }
+      }
+
+      &::after {
+        background-color: rgb(37 99 235);
+        content: "";
+        display: block;
+        height: 2px;
+        opacity: 0.3;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
