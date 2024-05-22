@@ -4,7 +4,7 @@ React and Node(Express) Aplication.
 
 ## Installation
 
-1. Clone this repository - `https://github.com/vsltkachenko/Events-board.git`.
+1. Clone this repository - `https://github.com/vsltkachenko/events-board.git`.
 
 ## Run Locally
 
